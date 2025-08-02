@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Styling & JavaScript</title>
+<link rel="stylesheet" href="apex.css">
+</head>
+<body>
+  <header>
+    <h1>Advanced Styling & JavaScript Project</h1>
+    <p>I Make Responsive Design + Image Carousel + API Fetch</p>
+  </header>
+
+  <main>
+    <!-- Image Carousel -->
+    <div class="carousel">
+      <h2>Image Carousel</h2>
+      <img id="carouselImage" src="https://picsum.photos/id/1015/600/300" alt="Carousel Image">
+      <div>
+        <button onclick="prevImage()">Previous</button>
+        <button onclick="nextImage()">Next</button>
+      </div>
+    </div>
+
+    <!-- API Data Fetch -->
+    <div class="api-data">
+      <h2>Random Joke</h2>
+      <p id="joke">Click the button to load a joke...</p>
+      <button onclick="fetchJoke()">Get Joke</button>
+    </div>
+  </main>
+<script src="apex.js"></script>
+</body>
+</html>
